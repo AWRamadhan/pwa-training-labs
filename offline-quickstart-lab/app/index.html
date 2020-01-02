@@ -15,6 +15,7 @@ limitations under the License.
 -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
   <meta charset="utf-8">
@@ -73,7 +74,21 @@ limitations under the License.
     </ul>
   </footer>
 
-   <!-- TODO Register the service worker -->
+  <!-- TODO Register the service worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('service-worker.js')
+          .then(reg => {
+            console.log('Yes', reg);
+          })
+          .catch(err => {
+            console.log('Not working', err)
+          });
+      });
+    }
+  </script>
 
 </body>
+
 </html>
