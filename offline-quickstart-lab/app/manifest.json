@@ -1,0 +1,31 @@
+{
+  "name": "Sapce issues",
+  "short_name": "SI",
+  "lang": "id-ID",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#F0F0F0F0",
+  "background_color": "##F0F0F0F0",
+  "icons": [
+    {
+      "src": "images/touch/icon-128x128.png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "images/touch/icon-192x192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/toucsh/icon-256x256.png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "images/touch/icon-384x384.png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "images/touch/icon-512x512.png",
+      "sizes": "512x512"
+    }
+  ]
+}
